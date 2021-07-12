@@ -6,7 +6,7 @@ International Conference on Medical Image Computing and Computer Assisted Interv
 
 [[Paper](https://www.xxx)]
 
-This repository contains the PyTorch implementation of AccSeg-Net.
+This repository contains the PyTorch implementation of UCAN.
 
 ### Citation
 If you use this code for your research or project, please cite:
@@ -34,8 +34,7 @@ Our code has been tested with Python 3.7, Pytorch 1.4.0, CUDA 10.0 on Ubuntu 18.
 
 
 ### Dataset Setup
-    .
-    data/                          # data setup for both training and test
+    ./data/                          # data setup for both training and test
     ├── train_flist.npy            # file list for training cases
     ├── valid_flist.npy            # file list for validation/test cases
     │
@@ -118,8 +117,8 @@ python main.py \
 --use_MR
 ```
 where \
-`--test_iters` defines the valid/test iteration to use. \
-Sample training/test scripts are provided under './scripts/' and can be directly executed.
+`--test_iters` defines the training iteration to use in the validation. \
+Sample train/test scripts are provided under './scripts/' and can be directly executed.
 
 
 ### Contact 
