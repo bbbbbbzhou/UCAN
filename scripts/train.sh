@@ -9,10 +9,10 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 --test_file './data/valid_flist.npy' \
 --dataset 'PET3' \
 --dataroot './data' \
---n_patch_train 10 \
+--n_patch_train 100 \
 --patch_size_train 64 64 64 \
 --n_patch_test 1 \
 --patch_size_test 80 96 80 \
---batch_size 3 \
+--batch_size 16 \
 --aug \
 --use_MR
