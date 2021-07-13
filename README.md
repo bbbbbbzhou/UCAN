@@ -4,7 +4,7 @@ Bo Zhou, Rui Wang, Ming-Kai Chen, Adam P. Mecca, Ryan S. O'Dell, Christopher H. 
 
 International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2021
 
-[[Paper](https://www.xxx)]
+[[Paper](https://arxiv.org/abs/2107.05491)]
 
 This repository contains the PyTorch implementation of UCAN.
 
@@ -15,7 +15,6 @@ If you use this code for your research or project, please cite:
       title={Synthesizing multi-tracer PET images for Alzheimer's disease patients using a 3D unified anatomy-aware cyclic adversarial network},
       author={Zhou, Bo and Wang, Rui and Chen, Ming-Kai and Mecca, Adam P. and O'Dell, Ryan S. and Van Dyck, Christopher H. and Carson, Richard E. and Duncan, James S and Liu, Chi},
       booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-      pages={xxx},
       year={2021},
       organization={Springer}
     }
